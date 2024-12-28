@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">TicTacPro</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#game">Play</a>
+                <a href="#features">Features</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Ultimate Tic-tac-toe</h1>
+            <p>Experience the classic game with a modern twist. Challenge your friends or play against the computer in this beautifully designed version of Tic-tac-toe.</p>
+            <a href="#game" class="cta-button">Start Playing</a>
+        </div>
+    </section>
+
+  
+    <section class="game-section" id="game">
+      
+        <div class="status">Choose your symbol to start</div>
+        <div class="symbol-choice">
+            <button id="x">X</button>
+            <button id="o">O</button>
+        </div>
+        <div class="container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <button class="reset-button">Reset Game</button>
+        <div class="score-board">
+            <h2>Score</h2>
+            <p>X: <span id="x-score">0</span> | O: <span id="o-score">0</span></p>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="features-content">
+            <h2>Game Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Modern Design</h3>
+                    <p>Enjoy a sleek, modern interface with smooth animations and responsive design.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Score Tracking</h3>
+                    <p>Keep track of your wins with an integrated scoring system.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Customizable</h3>
+                    <p>Choose your preferred symbol and playing style.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Responsive</h3>
+                    <p>Play on any device - desktop, tablet, or mobile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 somagani sai chandra All rights reserved.</p>
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
